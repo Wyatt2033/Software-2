@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="525.0" prefWidth="1033.0" style="-fx-background-color: #00305c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerMainScreen">
+   <children>
+      <AnchorPane layoutX="8.0" layoutY="7.0" prefHeight="512.0" prefWidth="1015.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <TabPane layoutX="22.0" layoutY="14.0" prefHeight="498.0" prefWidth="972.0" style="-fx-background-radius: 20;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="appTab" text="Appointments">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0">
+                           <children>
+                              <AnchorPane layoutX="6.0" layoutY="337.0" prefHeight="122.0" prefWidth="91.0" style="-fx-background-color: #00305c;">
+                                 <children>
+                                    <Label layoutX="9.0" layoutY="24.0" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: black; -fx-background-radius: 3;" />
+                                    <Label layoutX="16.0" layoutY="4.0" text="Sort By:" textFill="#d7d7d7">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <RadioButton fx:id="radAll" alignment="TOP_LEFT" layoutX="13.0" layoutY="28.0" mnemonicParsing="false" onAction="#onRadAll" selected="true" text="All" textFill="#d7d7d7">
+                                       <toggleGroup>
+                                          <ToggleGroup fx:id="sortGroup" />
+                                       </toggleGroup>
+                                    </RadioButton>
+                                    <Label layoutX="9.0" layoutY="84.0" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: black; -fx-background-radius: 3;" />
+                                    <Label layoutX="9.0" layoutY="54.0" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: black; -fx-background-radius: 3;" />
+                                    <RadioButton fx:id="radMonth" alignment="TOP_LEFT" layoutX="13.0" layoutY="58.0" mnemonicParsing="false" onAction="#onRadMonth" text="Month" textFill="#d7d7d7" toggleGroup="$sortGroup" />
+                                    <RadioButton fx:id="radWeek" alignment="TOP_LEFT" layoutX="13.0" layoutY="89.0" mnemonicParsing="false" onAction="#onRadWeek" text="Week" textFill="#d7d7d7" toggleGroup="$sortGroup" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="384.0" layoutY="337.0" prefHeight="122.0" prefWidth="205.0" style="-fx-background-color: #00305c;">
+                                 <children>
+                                    <Label layoutX="59.0" layoutY="4.0" text="Appointments:" textFill="#d7d7d7">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button layoutX="12.0" layoutY="24.0" mnemonicParsing="false" onAction="#onAddAppointment" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: black;" text="Add Appointment" textFill="#d7d7d7" />
+                                    <Button layoutX="12.0" layoutY="54.0" mnemonicParsing="false" onAction="#onDeleteApp" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: black;" text="Delete Appointment" textFill="#d7d7d7" />
+                                    <Button layoutX="12.0" layoutY="84.0" mnemonicParsing="false" onAction="#onModifyAppointment" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: black;" text="Modify Appointment" textFill="#d7d7d7" />
+                                 </children>
+                              </AnchorPane>
+                              <TableView fx:id="appTable" prefHeight="327.0" prefWidth="972.0" style="-fx-background-color: #d7d7d7;">
+                                <columns>
+                                  <TableColumn fx:id="appID" prefWidth="119.0" text="Appointment ID" />
+                                  <TableColumn fx:id="appTitle" prefWidth="53.0" text="Title" />
+                                    <TableColumn fx:id="appDesc" prefWidth="103.0" text="Description" />
+                                    <TableColumn fx:id="appLoc" prefWidth="94.0" text="Location" />
+                                    <TableColumn fx:id="appContact" prefWidth="99.0" text="Contact" />
+                                    <TableColumn fx:id="appType" prefWidth="126.0" text="Type" />
+                                    <TableColumn fx:id="appStart" prefWidth="120.0" text="Start" />
+                                    <TableColumn fx:id="appEnd" minWidth="6.0" prefWidth="121.0" text="End" />
+                                    <TableColumn fx:id="appCustID" prefWidth="88.0" text="Customer ID" />
+                                    <TableColumn fx:id="userID" prefWidth="48.0" text="User ID" />
+                                </columns>
+                              </TableView>
+                              <Button layoutX="923.0" layoutY="430.0" mnemonicParsing="false" onAction="#onExitButton" style="-fx-background-color: #00305c;" text="Exit" textFill="#d7d7d7" />
+                              <Button layoutX="901.0" layoutY="344.0" mnemonicParsing="false" onAction="#onReports" style="-fx-background-color: #00305c;" text="Reports" textFill="#d7d7d7" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab fx:id="custTab" text="Customers">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutX="384.0" layoutY="337.0" prefHeight="122.0" prefWidth="205.0" style="-fx-background-color: #00305c;">
+                                 <children>
+                                    <Label layoutX="68.0" layoutY="4.0" text="Customers:" textFill="#d7d7d7">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button layoutX="12.0" layoutY="24.0" mnemonicParsing="false" onAction="#onAddCustomer" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: black;" text="Add Customer" textFill="#d7d7d7" />
+                                    <Button layoutX="12.0" layoutY="54.0" mnemonicParsing="false" onAction="#onDeleteCustomer" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: black;" text="Delete Customer" textFill="#d7d7d7" />
+                                    <Button layoutX="12.0" layoutY="84.0" mnemonicParsing="false" onAction="#onModifyCustomer" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: black;" text="Modify Customer" textFill="#d7d7d7" />
+                                 </children>
+                              </AnchorPane>
+                              <TableView fx:id="custTable" layoutX="1.0" prefHeight="327.0" prefWidth="972.0" style="-fx-background-color: #d7d7d7;">
+                                 <columns>
+                                    <TableColumn fx:id="custID" prefWidth="96.0" text="Customer ID" />
+                                    <TableColumn fx:id="custName" prefWidth="115.0" text="Name" />
+                                    <TableColumn fx:id="custAddress" prefWidth="197.0" text="Address" />
+                                    <TableColumn fx:id="custFirstDiv" prefWidth="143.0" text="First Division" />
+                                    <TableColumn fx:id="custCountry" prefWidth="127.0" text="Country" />
+                                    <TableColumn fx:id="custPostal" minWidth="0.0" prefWidth="118.0" text="Postal Code" />
+                                    <TableColumn fx:id="custPhone" prefWidth="175.0" text="Phone Number" />
+                                 </columns>
+                              </TableView>
+                              <Button layoutX="923.0" layoutY="430.0" mnemonicParsing="false" style="-fx-background-color: #00305c;" text="Exit" textFill="#d7d7d7" />
+                              <Button layoutX="901.0" layoutY="344.0" mnemonicParsing="false" onAction="#onReports" style="-fx-background-color: #00305c;" text="Reports" textFill="#d7d7d7" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="525.0" prefWidth="900.0" style="-fx-background-color: #00305c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerReports">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="7.0" prefHeight="512.0" prefWidth="893.0" style="-fx-background-color: black; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="423.0" layoutY="14.0" text="Reports" textFill="#d7d7d7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TableView fx:id="reportTable" layoutX="19.0" layoutY="41.0" prefHeight="344.0" prefWidth="856.0" />
+            <AnchorPane layoutX="19.0" layoutY="398.0" prefHeight="86.0" prefWidth="262.0" style="-fx-background-color: #00305c;">
+               <children>
+                  <Label layoutX="79.0" layoutY="6.0" text="Sort By:" textFill="#d7d7d7" />
+                  <RadioButton layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#onTypeMonth" selected="true" text="Total Appointments By Type and Month" textFill="#d7d7d7">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="RGroup" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="43.0" mnemonicParsing="false" onAction="#onContact" text="Contact Schedule" textFill="#d7d7d7" toggleGroup="$RGroup" />
+                  <RadioButton layoutX="14.0" layoutY="64.0" mnemonicParsing="false" onAction="#onCountry" text="Total Customers By Country" textFill="#d7d7d7" toggleGroup="$RGroup" />
+               </children>
+            </AnchorPane>
+            <Button layoutX="823.0" layoutY="459.0" mnemonicParsing="false" onAction="#onExitButton" style="-fx-background-color: #00305c;" text="Exit" textFill="#d7d7d7" />
+            <Button layoutX="772.0" layoutY="459.0" mnemonicParsing="false" onAction="#onBackButton" style="-fx-background-color: #00305c;" text="Back" textFill="#d7d7d7" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

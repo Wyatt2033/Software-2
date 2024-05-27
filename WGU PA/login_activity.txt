@@ -1,0 +1,132 @@
+Failed Login - textfield empty.
+2022-10-22 14:45:57.074
+Failed Login - textfield empty.
+2022-10-22 14:50:15.506
+Failed Login - textfield empty.
+2022-10-22 14:50:15.701
+Failed Login - textfield empty.
+2022-10-22 14:50:15.911
+Failed Login - textfield empty.
+2022-10-22 14:50:16.345
+Failed Login - textfield empty.
+2022-10-22 14:50:37.881
+Login Successful
+2022-10-22 14:53:12.636
+Login failed - incorrect username/password.
+2022-10-23 08:42:30.074
+Login failed - incorrect username/password.
+2022-10-23 08:43:15.63
+Login failed - incorrect username/password.
+2022-10-23 08:43:15.932
+Login Successful
+2022-10-23 08:43:23.719
+Login Successful - test
+2022-10-23 08:46:04.631
+Login Successful - user:test logged in.
+2022-10-23 08:46:51.174
+Failed Login - textfield empty.
+2022-10-23 08:58:20.166
+Login Successful - user:test logged in.
+2022-10-23 08:58:22.906
+Login failed - incorrect username/password.
+2022-10-23 09:34:29.983
+Login Successful - user:test logged in.
+2022-10-23 09:36:30.539
+Login Successful - user:test logged in.
+2022-10-23 09:58:36.576
+Login Successful - user:test logged in.
+2022-10-23 10:08:27.166
+Failed Login - textfield empty.
+2022-10-23 10:24:25.345
+Failed Login - textfield empty.
+2022-10-23 10:25:34.506
+Failed Login - textfield empty.
+2022-10-23 10:26:23.334
+Failed Login - textfield empty.
+2022-10-23 10:26:24.933
+Failed Login - textfield empty.
+2022-10-23 10:26:25.857
+Failed Login - textfield empty.
+2022-10-23 10:26:59.802
+Failed Login - textfield empty.
+2022-10-23 10:27:38.253
+Failed Login - textfield empty.
+2022-10-23 10:27:39.855
+Failed Login - textfield empty.
+2022-10-23 10:29:13.148
+Login failed - incorrect username/password.
+2022-10-23 10:29:16.144
+Failed Login - textfield empty.
+2022-10-23 10:29:42.739
+Login Successful - user:test logged in.
+2022-10-23 11:15:59.688
+Login Successful - user:test logged in.
+2022-10-23 11:18:20.057
+Login Successful - user:test logged in.
+2022-10-23 11:19:53.09
+Login Successful - user:test logged in.
+2022-10-23 17:23:01.757
+Login Successful - user:test logged in.
+2022-10-23 17:26:58.674
+Login Successful - user:test logged in.
+2022-10-23 17:30:20.713
+Login Successful - user:test logged in.
+2022-10-23 17:31:30.577
+Login Successful - user:test logged in.
+2022-10-23 17:34:04.593
+Login Successful - user:test logged in.
+2022-10-23 17:35:28.085
+Login Successful - user:test logged in.
+2022-10-23 17:36:30.225
+Login failed - incorrect username/password.
+2022-10-23 17:37:32.484
+Login Successful - user:test logged in.
+2022-10-23 17:37:36.33
+Login Successful - user:test logged in.
+2022-10-23 17:50:04.728
+Login Successful - user:test logged in.
+2022-10-23 17:51:20.84
+Login Successful - user:test logged in.
+2022-10-23 11:53:30.7
+Login Successful - user:test logged in.
+2022-10-23 12:01:27.292
+Login Successful - user:test logged in.
+2022-10-23 12:05:37.735
+Login Successful - user:test logged in.
+2022-10-23 12:09:38.005
+Login Successful - user:test logged in.
+2022-10-23 12:11:37.282
+Login Successful - user:test logged in.
+2022-10-23 12:12:51.103
+Login Successful - user:test logged in.
+2022-10-23 12:14:06.525
+Login Successful - user:test logged in.
+2022-10-23 12:16:22.136
+Login Successful - user:test logged in.
+2022-10-23 12:34:35.894
+Login Successful - user:test logged in.
+2022-10-23 12:35:38.398
+Login Successful - user:test logged in.
+2022-10-23 12:36:41.474
+Login Successful - user:test logged in.
+2022-10-23 12:37:23.78
+Login Successful - user:test logged in.
+2022-10-23 12:40:04.397
+Login Successful - user:test logged in.
+2022-10-23 12:50:31.901
+Login Successful - user:test logged in.
+2022-10-23 12:52:57.751
+Login failed - incorrect username/password.
+2022-10-23 12:55:53.065
+Login Successful - user:test logged in.
+2022-10-23 12:55:54.925
+Login Successful - user:test logged in.
+2022-10-23 13:02:44.404
+Login Successful - user:test logged in.
+2022-10-23 13:05:14.717
+Login Successful - user:test logged in.
+2022-10-23 13:06:46.195
+Login Successful - user:test logged in.
+2022-10-23 14:27:53.379
+Login Successful - user:test logged in.
+2022-10-23 14:29:39.119
